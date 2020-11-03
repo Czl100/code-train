@@ -1,0 +1,53 @@
+@import '@beisen-phoenix/style-token/css/variable.scss';
+* {
+  margin: 0;
+  padding: 0;
+}
+.checkbox-wrap {
+  font-size: 14px;
+  max-width: 100px;
+  position: relative;
+  margin: 10px 0 0 10px;
+  .label {
+    margin-left: 20px;
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .checkbox {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .checkbox-unchecked {
+    border: $M5;
+    fill: $M9;
+  }
+
+  .checkbox-unchecked:hover {
+    border: $S3;
+    fill: $M9;
+  }
+
+  .checkbox-checked {
+    border: $S3;
+  }
+  .checkbox-checked:hover {
+    border: $S3;
+  }
+
+  .checkbox-checked-disable {
+    border: $M5;
+    fill: $M6;
+    font: $M5;
+  }
+
+  .checkbox-checked-disable {
+    border: $M5;
+    fill: $M6;
+    font: $M5;
+  }
+}

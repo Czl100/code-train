@@ -1,0 +1,21 @@
+{
+  "extends": "./node_modules/@beisen/ts/tsconfig",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    // "showConfig":true,
+    "listFiles": false,
+    "noResolve": false,
+    "rootDir": "src",
+    // Process & infer types from .js files.
+    //"allowJs": false,
+    // Don't emit; allow Babel to transform files.
+    //"noEmit": true,
+    // Disallow features that require cross-file information for emit.
+    "isolatedModules": false,
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["src/**/*", "./types/module/index.d.ts", "./src/type.d.ts"]
+}

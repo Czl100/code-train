@@ -1,0 +1,14 @@
+{
+  "extends": "./node_modules/@beisen/ts/tsconfig",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "listFiles": false,
+    "noResolve": false,
+    "rootDir": "src",
+    "isolatedModules": false,
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["src/**/*", "./types/module/index.d.ts", "./src/type.d.ts"]
+}

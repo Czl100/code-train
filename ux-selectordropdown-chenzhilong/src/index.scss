@@ -1,0 +1,11 @@
+.drop-selectorbox-wrap {
+  margin: 0;
+  width: 230px;
+
+  .show {
+    display: block;
+  }
+  .unshow {
+    display: none;
+  }
+}
