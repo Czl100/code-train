@@ -4,9 +4,9 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "start": "italent-thunder start",
-    "build": "italent-thunder build prod --mode development",
-    "build-prod": "italent-thunder build prod",
+    "start": "it-thunder start",
+    "build": "it-thunder build prod --mode development",
+    "build-prod": "it-thunder build prod",
     "lib": "stl build lib",
     "examples": "sbl start --port 9001",
     "prepublish": "npm run lib",
@@ -15,20 +15,20 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.beisencorp.com:ux-code-training/ux-form-codetrain-chenzhilong.git"
+    "url": "git@gitlab.bscorp.com:ux-code-training/ux-form-codetrain-chenzhilong.git"
   },
   "peerDependencies": {
     "react": "16.x.x",
     "react-dom": "16.x.x"
   },
   "devDependencies": {
-    "@beisen/babel": "7.x.x",
-    "@beisen/build": "1.x.x",
-    "@beisen/italent-thunder": "1.x.x",
-    "@beisen/storybook": "1.x.x",
-    "@beisen/storybook-react": "4.x.x",
-    "@beisen/ts": "1.x.x",
-    "@beisen/webpack": "4.x.x",
+    "@bs/babel": "7.x.x",
+    "@bs/build": "1.x.x",
+    "@bs/it-thunder": "1.x.x",
+    "@bs/storybook": "1.x.x",
+    "@bs/storybook-react": "4.x.x",
+    "@bs/ts": "1.x.x",
+    "@bs/webpack": "4.x.x",
     "@types/react": "16.x.x",
     "@types/react-dom": "16.x.x",
     "commitizen": "2.x.x",
@@ -42,8 +42,8 @@
     }
   },
   "dependencies": {
-    "@beisen-phoenix/field-date-time-picker": "^3.3.55",
-    "@beisen-phoenix/field-input": "^4.0.64",
+    "@bs-phoenix/field-date-time-picker": "^3.3.55",
+    "@bs-phoenix/field-input": "^4.0.64",
     "styled-components": "^5.2.0",
     "ux-area-selector-chenzhilong": "^1.2.0",
     "ux-checkbox-codetrain-chenzhilong": "^1.2.5",

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Form, { FormItem, fieldBind, getFormValue, STATUS, validateRule } from '../../src';
-import FieldInput from '@beisen-phoenix/field-input';
+import FieldInput from '@bs-phoenix/field-input';
 import SelectorDrop from 'ux-selectordropdown-chenzhilong';
 
 const apiEdu = 'http://10.129.7.191:7300/mock/5f4c999a40a755002021ebc4/example/GetDataSource';

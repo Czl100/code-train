@@ -7,8 +7,8 @@ import Form, {
   generateValidate,
   getFormValue,
 } from '../../src';
-import FieldInput from '@beisen-phoenix/field-input';
-import { FieldDatePicker } from '@beisen-phoenix/field-date-time-picker';
+import FieldInput from '@bs-phoenix/field-input';
+import { FieldDatePicker } from '@bs-phoenix/field-date-time-picker';
 
 export default function () {
   return (

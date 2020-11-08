@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Form, { FormItem, fieldBind, STATUS, validateRule } from '../../src';
-import FieldInput from '@beisen-phoenix/field-input';
+import FieldInput from '@bs-phoenix/field-input';
 import CheckBoxList from 'ux-checkbox-codetrain-chenzhilong';
 import SelectorDrop from 'ux-selectordropdown-chenzhilong';
 import AreaSelector from 'ux-area-selector-chenzhilong';
 
-const apiArea = 'http://const.italent.cn/resource/Areas-chs-74-100000.js';
+const apiArea = 'http://const.it.cn/resource/Areas-chs-74-100000.js';
 const apiEdu = 'http://10.129.7.191:7300/mock/5f4c999a40a755002021ebc4/example/GetDataSource';
 
 export default function () {

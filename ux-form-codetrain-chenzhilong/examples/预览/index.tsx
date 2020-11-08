@@ -1,6 +1,6 @@
 import React from 'react';
 import Form, { FormItem, FORMSTATUS, getFormValue } from '../../src';
-import FieldInput from '@beisen-phoenix/field-input';
+import FieldInput from '@bs-phoenix/field-input';
 import CheckBoxList from 'ux-checkbox-codetrain-chenzhilong';
 import SelectorDrop from 'ux-selectordropdown-chenzhilong';
 import AreaSelector from 'ux-area-selector-chenzhilong';
